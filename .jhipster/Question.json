@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "fieldName": "entitled",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "suggestions",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "answer",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Question",
+  "changelogDate": "20210819133916"
+}

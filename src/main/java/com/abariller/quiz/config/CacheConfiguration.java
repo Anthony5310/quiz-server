@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.abariller.quiz.domain.User.class.getName());
             createCache(cm, com.abariller.quiz.domain.Authority.class.getName());
             createCache(cm, com.abariller.quiz.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.abariller.quiz.domain.Question.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
